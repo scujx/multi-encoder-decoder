@@ -1,0 +1,14 @@
+data:
+  t_sheet_name: 'x'
+  a1_sheet_name: 'y'
+  a2_sheet_name: 'z'
+  date_format: '%Y-%m-%d %H:%M:%S'
+  t_a1_freq_ratio: 3
+  t_a2_freq_ratio: 0.5
+  key_var: 'UNRATE'
+  file_name: '1_Fred/202410'
+  test_size: 0.099
+  val_size: 0.099
+  t_d_model: 95
+  a1_d_model: 36
+  a2_d_model: 4

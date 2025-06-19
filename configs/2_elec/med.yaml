@@ -1,0 +1,36 @@
+includes:
+- defaults.yaml
+setup:
+ model_type: 'med'
+ learning_rate: 0.001
+
+ t_enc_time_steps: 3
+ a_enc_time_steps: 18
+ t_dec_time_steps: 1
+ a_dec_time_steps: 6
+ t_output_steps: 1
+ a_output_steps: 1
+ 
+ epoch: 100
+ batch_size: 16
+ seed: 0
+ early_stopping: False
+
+ t_enc_num_layers: 1
+ a_enc_num_layers: 1
+ t_dec_num_layers: 1
+ a_dec_num_layers: 1
+ 
+ t_enc_hd: 32
+ a_enc_hd: 32
+ t_dec_hd: 64
+ a_dec_hd: 32
+ t_enc_dropout: 0.3
+ a_enc_dropout: 0.4
+ t_dec_dropout: 0.2
+ a_dec_dropout: 0.5
+
+ loss_alpha: 0.3
+ transform_type: 'mfa'
+ mfa_heads: 1
+ plot: False

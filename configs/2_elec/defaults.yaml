@@ -1,0 +1,12 @@
+data:
+  t_sheet_name: 'x'
+  a1_sheet_name: 'y'
+  a2_sheet_name: 'z'
+  date_format: '%Y-%m-%d %H:%M:%S'
+  t_a1_freq_ratio: 0.166666666666666666
+  t_a2_freq_ratio: 4
+  key_var: 'load_actual'
+  file_name: '2_Elec/elec'
+  test_size: 0.1
+  t_d_model: 1
+  a1_d_model: 10

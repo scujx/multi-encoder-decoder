@@ -1,0 +1,11 @@
+data:
+  t_sheet_name: 'x'
+  a1_sheet_name: 'y'
+  date_format: '%Y-%m-%d %H:%M:%S'
+  t_a1_freq_ratio: 30
+  t_a2_freq_ratio: 1
+  key_var: 'CO2'
+  file_name: '3_Wea/wea'
+  test_size: 0.0952
+  t_d_model: 21
+  a1_d_model: 25
